@@ -1,0 +1,49 @@
+import homeWork.Student;
+
+
+public class Main {
+
+
+    public static void main(String[] args) {
+
+
+
+    // Д/З
+
+    //1.Создать класс    „ Student“  ,
+    // содержащий 2 переменные
+    // String „name“ и  int „number“.
+    // В методе main создать обьект класса Student,
+    // со своим именем и номером 1.
+    //2. Создать еще два обьекта класса студент
+    // с любыми именами и вывести их на экран.
+
+
+        // write your code here
+
+        // Information about first student:
+        Student alex = new Student();
+
+
+        // Information about second student:
+        Student vasja = new Student();
+        vasja.number = 2;
+        vasja.studentName = "Vasilij";
+
+        // Information about third student:
+        Student petja = new Student();
+        petja.number = 3;
+        petja.studentName = "Pjotr";
+
+        //Next step:
+        System.out.println("Student's numbers and student'names:");
+
+        System.out.println(alex.number + " " + alex.studentName);
+        System.out.println(vasja.number + " " + vasja.studentName);
+        System.out.println(petja.number + " " + petja.studentName);
+    }
+
+
+
+
+    }
